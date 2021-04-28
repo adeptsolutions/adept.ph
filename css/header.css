@@ -1,0 +1,32 @@
+header {
+  display: flex;
+  justify-content: center;
+  padding: 25px 35px;
+  flex-wrap: wrap;
+}
+
+header .idea a {
+  border: 1px solid #24456B;
+  color: #24456B;
+  display: inline-block;
+  margin-top: 25px;
+  padding: 5px 10px;
+  text-decoration: none;
+}
+
+header .idea a:hover,
+header .idea a:focus {
+  background-color: #24456B;
+  border: 1px solid white;
+  color: white;
+}
+
+@media (min-width: 640px) {
+  header {
+    justify-content: space-between;
+  }
+
+  header .idea a {
+    margin-top: 0;
+  }
+}

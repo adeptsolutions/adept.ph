@@ -1,0 +1,40 @@
+h1, p {
+  color: #24456B;
+}
+
+h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.billboard {
+  text-align: center;
+  padding: 0 35px;
+}
+
+.billboard .illustration {
+  display: none;
+}
+
+@media (min-width: 640px) {
+  .billboard {
+    display: flex;
+    padding: 0 74px;
+    text-align: left;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  .billboard .content {
+    max-width: 35%;
+  }
+
+  .billboard .illustration {
+    display: block;
+    max-width: 55%;
+  }
+
+  .billboard .illustration img {
+    width: 100%;
+  }
+}
