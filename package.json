@@ -1,10 +1,8 @@
 {
-  "name": " ",
+  "name": "adept-ph-marketing-site",
   "version": "0.0.1",
-  "description": "",
-  "keywords": "",
-  "license": "",
-  "author": "",
+  "description": "Adept.ph marketing site",
+  "author": "dc@rmrz.ph",
   "scripts": {
     "build": "parcel build index.html",
     "dev": "parcel index.html --open",

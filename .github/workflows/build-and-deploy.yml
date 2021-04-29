@@ -8,8 +8,8 @@ jobs:
       - uses: actions/setup-node@v2
         with:
           node-version: '12.21.0'
-      - run: yarn
-      - run: yarn build
+      - run: npm i
+      - run: npm run build
       - name: Publish
         uses: nogsantos/scp-deploy@master
         with:
