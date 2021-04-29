@@ -12,6 +12,7 @@ header .idea a {
   margin-top: 25px;
   padding: 5px 10px;
   text-decoration: none;
+  transition: background-color 0.5s ease, color 0.5s ease, border 0.5s ease;
 }
 
 header .idea a:hover,

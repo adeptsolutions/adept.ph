@@ -4,7 +4,7 @@ h1, p {
 
 h1 {
   font-size: 36px;
-  margin-bottom: 20px;
+  margin-bottom: 2.5rem;
 }
 
 .billboard {
@@ -16,12 +16,43 @@ h1 {
   display: none;
 }
 
+footer {
+  background: #24456B;
+  color: white;
+  display: flex;
+  padding: 45px;
+  justify-content: space-around;
+  flex-direction: column;
+}
+
+footer .icon {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+footer h3 {
+  margin-top: 0;
+}
+
+footer ul {
+  padding: 0;
+}
+
+footer ul li {
+  list-style: none;
+}
+
 @media (min-width: 640px) {
+  section {
+    max-width: 1140px;
+    margin: 0 auto 10rem;
+  }
+
   .billboard {
     display: flex;
     padding: 0 74px;
     text-align: left;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
   }
 
@@ -36,5 +67,29 @@ h1 {
 
   .billboard .illustration img {
     width: 100%;
+  }
+
+  .services .items {
+    display: grid;
+    grid-auto-flow: column;
+    grid-gap: 16px;
+    justify-content: center;
+  }
+
+  .services .items .item {
+    border: 1px solid #24456B;
+    max-width: 250px;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .services .items .item h2 {
+    font-size: 24px;
+  }
+
+  footer {
+
+    justify-content: space-around;
+    flex-direction: row;
   }
 }

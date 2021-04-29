@@ -265,7 +265,7 @@ textarea {
 body {
   background-color: white;
   background-image: url("../img/arc-bg.png");
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
   font-family: 'Montserrat', sans-serif;
 }
