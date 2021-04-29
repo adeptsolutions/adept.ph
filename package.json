@@ -4,9 +4,10 @@
   "description": "Adept.ph marketing site",
   "author": "dc@rmrz.ph",
   "scripts": {
-    "build": "parcel build index.html",
+    "build": "parcel build index.html --public-url /lab/adept-temp",
+    "build:local": "parcel build index.html",
     "dev": "parcel index.html --open",
-    "start": "npm run build && npm run dev",
+    "start": "npm run build:local && npm run dev",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
